@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: unique_ingredient_identifier
+    database: john_snow_labs_unique_ingredient_identifier
+    schema: fda_drug_unique_ingredient_identifier
+    tables:
+      - name: unique_ingredient_identifier_changes
+      - name: unique_ingredient_identifier_names
+      - name: unique_ingredient_identifier_records
